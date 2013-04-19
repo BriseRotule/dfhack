@@ -149,6 +149,7 @@ if (BUILD_SUPPORTED)
     DFHACK_PLUGIN(infiniteSky infiniteSky.cpp)
     DFHACK_PLUGIN(createitem createitem.cpp)
 	DFHACK_PLUGIN(isoworldremote isoworldremote.cpp PROTOBUFS isoworldremote)
+    DFHACK_PLUGIN(combatLog combatLog.cpp)
 endif()
 
 
